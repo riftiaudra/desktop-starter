@@ -32,9 +32,9 @@ namespace Starter
         public static string MSSQLConnectionString =
             $"Data Source={Program.AppSettings("datasource")};" +
             $"Initial Catalog={Program.AppSettings("database")};" +
-            //$"User ID=sa;" +
+            //$"User ID=;" +
             $"User ID={Userid};" +
-            //$"Password=010101";
+            //$"Password=";
             $"Password={Password}";
 
         /// <summary>
